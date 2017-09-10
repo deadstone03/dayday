@@ -1,0 +1,11 @@
+runtime: go
+env: flex
+version: 0
+
+skip_files:
+- node_modules/
+- e2e/
+- src/
+
+- url: /.*
+  script: _go_app
